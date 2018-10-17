@@ -1,5 +1,17 @@
-#include "ex1_1.h"
 
+#include <stdlib.h>
+#include <stdio.h>
+// Pour le fork et le execvp
+#include <unistd.h>
+// Pour le wait
+#include <sys/wait.h>
+// Pour strcmp
+#include <string.h>
+
+
+#define TAILLELECTURE 100
+
+void Lecture_Flux(char * fluxEntrant);
 
  int main (){
       
